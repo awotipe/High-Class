@@ -1,0 +1,86 @@
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sponsor{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 3rem;
+    box-shadow: -4px -4px 4px 0px #0E39970D;
+    box-shadow: 0px 4px 4px 0px #0E39970D;
+    border-radius: 5px;
+    border: 2px solid #0E39970D;
+    padding: 1rem;
+}
+
+.sponsor2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.icons{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.iconImage img{
+    width: 100%;
+}
+
+/* .iconImage{
+    width: 20%;
+} */
+
+.iconText{
+    width: 70%;
+}
+
+.iconText h5{
+    font-size: 10px;
+    font-family: Lato;
+}
+
+.container p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    /* line-height: 34.4px; */
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.head h2{
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 700;
+    /* line-height: 14.4px; */
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+@media screen and (max-width: 425px){
+    .sponsor{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+    .sponsor2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .head h2{
+        font-size: 28px;
+        padding-top: 3rem;
+    }
+}

@@ -1,0 +1,204 @@
+.container {
+  background: #0E3997;
+  /* background-image: url(../../Assests/Logos/LogoCOOL.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: color; */
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+  color: #fff;
+}
+
+.footWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footRight {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  /* margin-top: 2rem; */
+}
+
+.footLeft {
+  width: 40%;
+}
+
+.subscribe {
+  width: 20%;
+  margin-top: 2rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.info h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
+
+.high h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.high p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 90%;
+  align-items: center;
+}
+
+.address h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.address p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 90%;
+  align-items: center;
+}
+
+.subscribe h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
+
+.Form input {
+  width: 80%;
+  height: 38px;
+  padding: 0 0.5rem;
+  border: 2px solid #fff;;
+  background: #f4f4f4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #828282;
+  border-radius: 5px 0px 0px 5px;
+  margin-top: -.5rem;
+}
+
+.Form button {
+  width: 20%;
+  height: 33px;
+  background: rgba(255, 102, 0, 1);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.copyright p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footLogo{
+  align-items: center;
+}
+
+.footLogo img {
+  filter: contrast(0%) brightness(2);
+  width: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footWrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .footRight {
+    width: 80%;
+  }
+  
+  .footLeft {
+    width: 90%;
+  }
+  
+  .subscribe {
+    width: 60%;
+  }
+
+  .copyright hr{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .footRight {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .footLeft {
+    width: 100%;
+  }
+  
+  .subscribe {
+    width: 100%;
+  }
+
+  .footLeft p {
+    width: 100%;
+  }
+
+  .info{
+    margin-bottom: 1rem;
+  }
+}

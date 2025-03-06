@@ -1,0 +1,124 @@
+.container {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.hero {
+  background-image: url(../../Assests/RegisterHero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 3rem;
+}
+
+.hero h3 {
+  font-size: 33px;
+  font-weight: 700;
+  /* line-height: 58.09px; */
+  color: #0e3997;
+  margin-left: 4rem;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.register {
+  width: 70%;
+  margin: auto;
+  background: #0e399708;
+  padding: 3rem 3rem 7rem 3rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+
+.register input {
+  width: 100%;
+  border: 1px solid #00000080;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.7rem 0.5rem;
+}
+
+.submit button {
+  width: 100%;
+  border: 1px solid #0e3997;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #0e3997;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  /* letter-spacing: 0.15em; */
+  margin-top: 1rem;
+  color: #fff;
+  padding: 0.7rem 0;
+}
+
+.register h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.6px;
+  text-align: center;
+  color: #0e3997;
+}
+
+.register p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39.6px;
+  text-align: center;
+  color: #0e3997;
+  padding-bottom: 2rem;
+}
+
+.register label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  color: #333333;
+}
+
+.myRow {
+  color: #0e3997;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .register {
+    width: 80%;
+  }
+  
+
+  .hero {
+    background-image: url(../../Assests/RegisterHero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    background-image: url(../../Assests/RegisterHero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+    margin-left: 2rem;
+  }
+
+  .register {
+    width: 90%;
+  }
+  .register p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29.6px;
+    padding-bottom: 2rem;
+  }
+}

@@ -1,0 +1,153 @@
+.container {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.innerContainer {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assests/Hero/Hero5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8rem 0;
+}
+
+.innerContainer2 {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assests/Hero/Hero6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem 0;
+}
+
+
+.hero {
+  width: 90%;
+  margin: auto;
+}
+
+.hero h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 1rem;
+  width: 60%;
+}
+
+.hero h2 span {
+  color: #FF6600;
+}
+
+.hero p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  width: 50%;
+}
+
+.heroImage {
+  margin-bottom: 3rem;
+}
+
+.heroImage img {
+  width: 20%;
+}
+
+.line img {
+  width: 100%;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .innerContainer,
+  .innerContainer2 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .innerContainer {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assests/Hero/Hero5.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .innerContainer2 {
+    width: 100%;
+    /* height: auto; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assests/Hero/Hero6.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .hero h2 {
+    width: 90%;
+  }
+  
+  .hero p {
+    width: 90%;
+  }
+
+}
+
+
+@media screen and (max-width: 590px){
+  .hero h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .hero p {
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .innerContainer {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assests/Hero/Hero5.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .innerContainer2 {
+    width: 100%;
+    /* height: auto; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assests/Hero/Hero6.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .hero {
+    width: 90%;
+  }
+
+  .hero h2 {
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .hero p {
+    font-size: 22px;
+    font-weight: 500;
+    width: 100%;
+  }
+}

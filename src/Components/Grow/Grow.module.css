@@ -1,0 +1,120 @@
+.container{
+  width: 100%;
+  margin-top: 5rem;
+  background-color: #f2f7f9;
+}
+
+.innerContainer{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.innerContainer h1{
+  text-align: center;
+  color: #0e3997;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 4rem;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 4rem;
+}
+
+/* .cardImage{
+    width: 30%;
+} */
+
+.cardText{
+    width: 60%;
+    box-shadow: rgba(1, 6, 12, 0.14) 0px 4px 25px 0px;
+    border-radius: 16px;
+    padding: 29px 26px 29px;
+}
+.cardImage img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(1, 6, 12, 0.14) 0px 4px 25px 0px;
+}
+
+
+
+
+.btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn button{
+    background-color: #0e3997;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn button:hover{
+  background: rgba(255, 102, 0, 1);
+}
+@media screen and (max-width: 768px){
+
+  .innerContainer{
+    width: 90%;
+  }
+
+  .card{
+    margin-left: 0rem;
+}
+  .card2{
+    margin-left: 0rem;
+}
+}
+
+@media screen and (max-width: 700px){
+
+  .innerContainer{
+    width: 90%;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+}
+
+  .card2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+}
+
+.cardText{
+  width: 90%;
+}
+.cardImage img{
+  width: 250px;
+  height: 250px;
+}
+
+}
