@@ -43,9 +43,9 @@
     color: #000;
 }
 
-.aboutBtn{
+/* .aboutBtn{
     text-align: center;
-}
+} */
 
 .aboutBtn button{
     background: #0E3997;
@@ -86,7 +86,7 @@
         width: 90%;
         margin: auto;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     
     .aboutText{

@@ -16,7 +16,7 @@ const Grow = () => {
   return (
     <div className={styles.container}>
         <div className={styles.innerContainer}>
-            <h1>Grow Your Career With High-Class</h1>
+            <h1>Grow Your Career With High-Class Tech Hub</h1>
             <div className={styles.card}>
                 <div className={styles.cardText}>
                     <h2>In-Demand Tech Skills</h2>

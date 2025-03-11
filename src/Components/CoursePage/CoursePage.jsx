@@ -39,7 +39,7 @@ const CoursePage = () => {
               Kickstart your career as a Front-End Web Developer today! Master the skills to craft high-quality websites and dynamic applications, delivering exceptional user experiences that stand out.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -57,7 +57,7 @@ const CoursePage = () => {
               Start your career as a Backend Web Developer today! Learn to build strong server-side apps, handle databases, and create smooth functionality for high-quality websites and dynamic user experiences.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -74,7 +74,7 @@ const CoursePage = () => {
                  Learn to analyze complex datasets, uncover valuable insights, and create data-driven solutions that empower businesses to make smarter decisions and achieve impactful results.
                 </p>
                 <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
                 <Link to="/register">
@@ -99,7 +99,7 @@ const CoursePage = () => {
               Learn to uncover vulnerabilities and implement data-driven security solutions, empowering organizations to strengthen defenses, mitigate risks and protection against evolving threats.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -117,7 +117,7 @@ const CoursePage = () => {
               UI and UX design are in high demand across industries, focusing on customer-centric solutions. Essential for creating intuitive, engaging experiences to drive satisfaction in digital products.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -139,7 +139,7 @@ const CoursePage = () => {
               Whether it's crafting engaging visuals or optimizing server performance, this is your gateway to becoming a versatile Fullstack Web Developer ready to tackle any challenge in the tech industry.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -159,7 +159,7 @@ const CoursePage = () => {
                Master the art of strategic planning and product lifecycle management. Learn to define product vision and work seamlessly with engineering, design, and marketing teams to bring ideas to life.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -181,7 +181,7 @@ const CoursePage = () => {
               Master the art of visual storytelling and creative design. Define design concepts and collaborate seamlessly with clients and marketing teams to bring ideas to life through stunning visuals.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -199,7 +199,7 @@ const CoursePage = () => {
               Mastering digital marketing involves understanding and leveraging online channels like SEO, social media, email, and content marketing to reach and engage your target audience. 
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  6months </p>
+                <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">

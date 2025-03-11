@@ -6,64 +6,48 @@
 }
 
 .innerContainer {
-    width: 60%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
 
-.testimonySlide{
-    text-align: center;
-}
 
-.wrap {
-    width: 45%;
+.testimonySlide {
+    width: 15%;
+    height: 400px;
     margin: auto;
-    margin-top: 6rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    /* margin-top: 6rem; */
 }
 
 .innerContainer h2 {
-    font-family: Lato;
     font-size: 33px;
     font-weight: 600;
     line-height: 58.09px;
     color: #fff;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+.paragraph{
+    margin-bottom: 3rem;
 }
 
 .paragraph p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.2px;
-    color: #fff;
-    width: 65%;
-    margin: auto;
 }
 
 .clientName p {
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.2px;
-    color: #fff;
 }
 
 .clientName h5 {
-    font-family: Lato;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    color: #fff;
-    /* color: rgba(52, 173, 254, 1); */
-}
-.clientImage{
-    text-align: center;
-    width: 30%;
-    margin: auto;
-}
-
-.clientImage img{
-    width: 100%;
 }
 
 @media screen and (max-width: 1024px){
@@ -88,7 +72,7 @@
         margin: auto;
     }
 
-    .wrap {
+    .testimonySlide {
         gap: 0.5rem;
         width: 85%;
         margin: auto;

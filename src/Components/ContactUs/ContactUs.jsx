@@ -71,22 +71,22 @@ const ContactUs = () => {
             </div>
             <div className={classes.socials}>
               <div className={classes.media}>
-                <a href="https://www.facebook.com/share/1BECYvYqmo/">
+              <a href="https://www.facebook.com/share/18Xjhj4jra/">
                 <img src={Facebook} alt="Facebook" />
                 </a>
               </div>
               <div className={classes.media}>
-                <a href="https://www.instagram.com/niit_agbara_center/profilecard/?igsh=b3EwbXB3b21xeHAx">
+              <a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">
                 <img src={Instagram} alt="Instagram" />
                 </a>
               </div>
               <div className={classes.media}>
-                <a href="https://x.com/niit_abeokuta?t=Bm-iln8Fyxznt2M3onrd4w&s=09">
+              <a href="https://x.com/highclastechhub">
                 <img src={Twitter} alt="Twitter" />
                 </a>
               </div>
               <div className={classes.media}>
-                <a href="https://www.linkedin.com/company/niit-abeokuta/">
+              <a href="https://www.linkedin.com/in/high-class-tech-hub/">
                 <img src={Linkedin} alt="Linkedin" />
                 </a>
               </div>
@@ -104,8 +104,8 @@ const ContactUs = () => {
        <label for="phone_Number" >Phone Number</label><br/>
        <input type="phone" id="phone" name="phone"  placeholder='+234 80 xxx xxx xx' required/><br/>
 
-       <label for="address" >Address</label><br/>
-       <input type="address" id="address" name="address" placeholder='Please enter your house address' required/><br />
+       <label for="address" >Message</label><br/>
+       <textarea name="message" id="message" placeholder='Leave us a message' rows={4} required></textarea>
        
        <div className={classes.submit}>
            <button>SUBMIT</button>

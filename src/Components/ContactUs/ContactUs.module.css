@@ -57,15 +57,21 @@
     background: #fff;
     /* padding: 3rem 3rem 7rem 3rem; */
     border-radius: 10px;
-    padding: 3rem;
+    padding: 2rem;
   }
   
   .register input{
     width: 100%;
     border: 1px solid #00000080;
     border-radius: 5px;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    padding: 0.7rem 0.5rem;
+  }
+  .register textarea{
+    width: 100%;
+    border: 1px solid #00000080;
+    border-radius: 5px;
     padding: 0.7rem 0.5rem;
   }
   

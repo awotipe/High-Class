@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./AboutJob.module.css";
-import Ready from "../../Assests/About/about.png";
+import Ready from "../../Assests/About/about4.png";
 // import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const AboutJob = () => {
@@ -26,13 +26,11 @@ const AboutJob = () => {
       </div>
       <div className={classes.jobWrap}>
         <div className={classes.jobImage}>
-          <div className={classes.image1}>
             <img src={Ready} alt="About-Image" />
-          </div>
         </div>
         <div className={classes.jobText}>
           <div className={classes.talent}>
-            <h3>ho We Are:</h3>
+            <h3>Who We Are:</h3>
             <p>
               High-Class Tech Hub is a cutting-edge platform dedicated to
               empowering individuals and organizations with the skills and
@@ -40,8 +38,7 @@ const AboutJob = () => {
               landscape. We are a forward-thinking community committed to
               bridging the gap between current capabilities and future demands.
             </p>
-          </div>
-          <div className={classes.talent}>
+
             <h3>What We Do:</h3>
             <p>
               We provide comprehensive resources, training, and support to help
@@ -52,7 +49,9 @@ const AboutJob = () => {
               ensure you stay ahead in the tech-driven world.
             </p>
           </div>
-          <div className={classes.talent}>
+        </div>
+      </div>
+          <div className={classes.method}>
             <h3>Our Method of Teaching:</h3>
             <p>
               At High-Class Tech Hub, we believe in a hands-on, practical
@@ -74,8 +73,6 @@ const AboutJob = () => {
               and unlock your full potential.
             </p>
           </div>
-        </div>
-      </div>
     </div>
   );
 };

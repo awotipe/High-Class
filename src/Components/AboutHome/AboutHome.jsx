@@ -22,12 +22,12 @@ const AboutHome = () => {
             We are a forward-thinking community committed to bridging the gap
             between current capabilities and future demands.
           </p>
+          <div className={classes.aboutBtn}>
+              <Link to="/aboutus">
+                <button>Learn More</button>
+              </Link>
+          </div>
         </div>
-      </div>
-      <div className={classes.aboutBtn}>
-          <Link to="/aboutus">
-            <button>Learn More</button>
-          </Link>
       </div>
     </div>
   );
