@@ -24,6 +24,7 @@ const Courses = () => {
           <div className={classes.card}>
             <div className={classes.cardImage}>
               <img src={Student} alt="Student"  className={classes.myImages}/>
+              <h3 className={classes.course}>FRONTEND DEVELOPMENT</h3>
               <div className={classes.cardText}>
               <h3>FRONTEND DEVELOPMENT</h3>
                 <hr/>
@@ -37,6 +38,7 @@ const Courses = () => {
           <div className={classes.card}>
             <div className={classes.cardImage}>
               <img src={Student2} alt="Student" className={classes.myImages} />
+              <h3 className={classes.course}>DATA ANALYSIS</h3>
               <div className={classes.cardText}>
               <h3>DATA ANALYSIS</h3>
                 <hr/>
@@ -50,6 +52,7 @@ const Courses = () => {
           <div className={classes.card}>
             <div className={classes.cardImage}>
               <img src={Student3} alt="Student" className={classes.myImages}/>
+              <h3 className={classes.course}>BACKEND DEVELOPMENT</h3>
               <div className={classes.cardText}>
               <h3>BACKEND DEVELOPMENT</h3>
                 <hr/>

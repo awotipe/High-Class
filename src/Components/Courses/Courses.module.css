@@ -15,6 +15,8 @@
 
 .topCourses {
   text-align: center;
+  width: 60%;
+  margin: auto;
 }
 
 .topCourses h3 {
@@ -39,30 +41,9 @@
   margin-bottom: 2rem;
 }
 
-.btn button {
-  padding: 0.7rem 3rem;
-  /* border-radius: 0px 5px 5px 0px; */
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 23.09px;
-  color: rgba(14, 57, 151, 1);
-  background: #fff;
-  border: none;
-  cursor: pointer;
-  margin: 2rem 0.1rem;
-}
-
-.btn button:hover {
-  background: rgba(150, 218, 237, 1);
+.course{
+  text-align: center;
   color: #fff;
-}
-
-.shortTerm {
-  border-radius: 5px 0px 0px 5px;
-}
-
-.longTerm {
-  border-radius: 0px 5px 5px 0px;
 }
 
 .cardWrap {
@@ -144,6 +125,7 @@
 
 .card{
     position: relative;
+    background: #000;
 }
 
 .card:hover .cardText{
@@ -155,9 +137,42 @@
     display: flex;
     flex-direction: column;
   }
+
+  .topCourses {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .cardText h3 {
+    padding-top: 9rem;
+  }
+}
+
+
+
+@media screen and (max-width: 654px){
+    .cardText h3 {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 600px){
+    .cardText h3 {
+    padding-top: 3rem;
+  }
 }
 
 @media screen and (max-width: 425px){
+
+  .cardText h3 {
+    padding-top: 1rem;
+  }
+
+  .topCourses {
+    width: 100%;
+    margin: auto;
+  }
+
   .btn button {
     padding: 0.5rem 0.5rem;
     margin: 0.5rem 0.1rem;

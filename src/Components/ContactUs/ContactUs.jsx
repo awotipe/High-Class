@@ -50,7 +50,7 @@ const ContactUs = () => {
   return (
     <div className={classes.container}>
     <div className={classes.hero}>
-     {/* <h3>CONTACT US</h3> */}
+     <h3>CONTACT US</h3>
     </div>
     <div className={classes.innerContainer}>
     <div className={classes.contactSide}>

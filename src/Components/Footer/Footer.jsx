@@ -97,10 +97,10 @@ const Footer = () => {
 
             <div className={classes.info}>
               <h5>Socials</h5>
-              <p> <a href="https://www.facebook.com/share/1BECYvYqmo/">Facebook</a></p>
-              <p><a href="https://www.instagram.com/niit_agbara_center/profilecard/?igsh=b3EwbXB3b21xeHAx">Instagram</a></p>
-              <p> <a href="https://x.com/niit_abeokuta?t=Bm-iln8Fyxznt2M3onrd4w&s=09">Twitter</a></p>
-              <p> <a href="https://www.linkedin.com/company/niit-abeokuta/">Linkedin</a></p>
+              <p> <a href="https://www.facebook.com/share/18Xjhj4jra/">Facebook</a></p>
+              <p><a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">Instagram</a></p>
+              <p> <a href="https://x.com/highclastechhub">Twitter</a></p>
+              <p> <a href="https://www.linkedin.com/in/high-class-tech-hub/">Linkedin</a></p>
             </div>
           </div>
           {/* <div className={classes.subscribe}>

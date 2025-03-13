@@ -1,24 +1,28 @@
 .container {
     width: 100%;
     /* background: rgba(14, 57, 151, 1); */
-    background: rgba(255, 102, 0, 1);
+    background: #ff6600;
     padding: 2rem 0;
+    /* height: 200vh; */
 }
 
 .innerContainer {
     width: 90%;
     margin: auto;
-    text-align: center;
+   
 }
 
 
 .testimonySlide {
-    width: 15%;
-    height: 400px;
+    width: 100%;
+    height: 440px;
     margin: auto;
-    background: #fff;
+    background: rgba(14, 57, 151, 1);
     padding: 2rem;
     border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: justify;
+    /* margin-right: 4rem; */
     /* margin-top: 6rem; */
 }
 
@@ -28,6 +32,7 @@
     line-height: 58.09px;
     color: #fff;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .paragraph{
@@ -37,45 +42,130 @@
 .paragraph p {
     font-size: 16px;
     font-weight: 400;
+    color: #fff;
 }
 
 .clientName p {
     font-size: 16px;
     font-weight: 400;
+    color: #fff;
 }
 
 .clientName h5 {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
+    color: #fff;
 }
 
 @media screen and (max-width: 1024px){
     .wrap {
         width: 65%;
     }
-}
 
-@media screen and (max-width: 768px){
-    .innerContainer {
-        width: 80%;
+    .paragraph p {
+        font-size: 14px;
+    }
+    
+    .clientName p {
+        font-size: 14px;
+    }
+    
+    .clientName h5 {
+        font-size: 14px;
+
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 858px){
+    .innerContainer {
+        width: 80%;
+    }
+
+    .testimonySlide {
+        width: 100%;
+        height: 400px;
+        padding: 1rem;
+    }
+
+    .paragraph p {
+        font-size: 15px;
+    }
+    
+    .clientName p {
+        font-size: 15px;
+    }
+    
+    .clientName h5 {
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (max-width: 680px){
     .innerContainer h2 {
         margin-bottom: 2rem;
     }
     
-    .paragraph p {
-        width: 80%;
-        margin: auto;
-    }
 
     .testimonySlide {
-        gap: 0.5rem;
-        width: 85%;
-        margin: auto;
-        margin-top: 3rem;
+        width: 100%;
+        height: 300px;
+        padding: 1rem;
+    }
+
+    .paragraph p {
+        font-size: 16px;
+    }
+    
+    .clientName p {
+        font-size: 16px;
+    }
+    
+    .clientName h5 {
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 590px){
+    .innerContainer h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    .testimonySlide {
+        width: 100%;
+        height: 360px;
+        padding: 1rem;
+    }
+
+    .paragraph p {
+        font-size: 16px;
+    }
+    
+    .clientName p {
+        font-size: 16px;
+    }
+    
+    .clientName h5 {
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 480px){
+    .testimonySlide {
+        width: 100%;
+        height: 410px;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 380px){
+    .testimonySlide {
+        width: 100%;
+        height: 460px;
+        padding: 1rem;
     }
 }
