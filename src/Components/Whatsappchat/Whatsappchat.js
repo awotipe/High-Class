@@ -9,7 +9,7 @@ const Whatsappchat = () => {
       <p>Chat with us</p>
     </div>
     <div className={classes.Whatsappchat}>
-        <a href="https://wa.link/7hopug">
+        <a href="https://wa.me/message/KSZ63NLUS3HPL1">
         <FaWhatsappSquare className={classes.icon} />
         </a>
     </div>

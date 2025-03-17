@@ -21,7 +21,7 @@
     padding: 2rem;
     border-radius: 10px;
     border: 2px solid #fff;
-    text-align: justify;
+    text-align: left;
     /* margin-right: 4rem; */
     /* margin-top: 6rem; */
 }
@@ -57,6 +57,26 @@
     line-height: 24px;
     color: #fff;
 }
+
+.customArrow {
+    font-size: 24px;
+    /* color: #fff; */
+    cursor: pointer;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+  }
+  
+  .customArrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
 
 @media screen and (max-width: 1024px){
     .wrap {

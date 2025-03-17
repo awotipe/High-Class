@@ -89,10 +89,12 @@
 
   .hero h2 {
     width: 90%;
+    font-size: 45px;
   }
   
   .hero p {
     width: 90%;
+    font-size: 22px;
   }
 
 }

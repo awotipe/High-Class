@@ -22,13 +22,13 @@ export default class Hero extends Component {
             <div className={classes.hero}>
               <h2> <span>WELCOME</span> TO<br /> HIGH-CLASS TECH HUB</h2>
               <p>
-                ...a platform that provides everything you need to upskill for the future.
+                A platform that provides everything you need to upskill for the future.
               </p>
             </div>
           </div>
           <div className={classes.innerContainer2}>
             <div className={classes.hero}>
-              <h2>EMPOWER YOURSELF FOR THE FUTURE OF WORK.</h2>
+              <h2><span>EMPOWER</span> YOURSELF FOR THE FUTURE OF WORK.</h2>
               <p>
                  Let us help you make that dream a reality with our well-tailored curriculum and industry standard technologies to build the career of your dreams!
               </p>

@@ -1,6 +1,35 @@
 import React, { Component } from "react";
 import classes from "./Testimonials.module.css";
 import Slider from "react-slick";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
+
+// Custom Arrow Components
+const CustomPrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`${className} ${classes.customArrow}`}
+        style={{ ...style, left: "-30px", display: "block" }}
+        onClick={onClick}
+      >
+       <IoIosArrowBack />
+      </div>
+    );
+  };
+  
+  const CustomNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`${className} ${classes.customArrow}`}
+        style={{ ...style, right: "-30px", display: "block" }}
+        onClick={onClick}
+      >
+      <IoIosArrowForward />
+      </div>
+    );
+  };
 
 export default class Testimonials extends Component {
   render() {
@@ -15,6 +44,8 @@ export default class Testimonials extends Component {
       speed: 6000,
       autoplaySpeed: 5000,
       cssEase: "linear",
+      prevArrow: <CustomPrevArrow />, 
+      nextArrow: <CustomNextArrow />, 
 
       
       responsive: [
