@@ -36,7 +36,7 @@ export default class Testimonials extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
       arrows: true,
@@ -52,8 +52,8 @@ export default class Testimonials extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 1,
             infinite: true,
           }
         },
@@ -61,7 +61,7 @@ export default class Testimonials extends Component {
           breakpoint: 858,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToScroll: 1,
             initialSlide: 2
           }
         },
@@ -77,7 +77,8 @@ export default class Testimonials extends Component {
     return (
       <div className={classes.container}>
         <div className={classes.innerContainer}>
-          <h2>TESTIMONIALS</h2>
+          <h4>TESTIMONIALS</h4>
+          <h2>See What Our Students Are Saying</h2>
           <Slider {...settings} className={classes.slider}>
             <div className={classes.testimonySlide}>
               <div className={classes.paragraph}>

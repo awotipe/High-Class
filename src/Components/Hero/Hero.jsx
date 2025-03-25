@@ -30,7 +30,7 @@ export default class Hero extends Component {
             <div className={classes.hero}>
               <h2><span>EMPOWER</span> YOURSELF FOR THE FUTURE OF WORK.</h2>
               <p>
-                 Let us help you make that dream a reality with our well-tailored curriculum and industry standard technologies to build the career of your dreams!
+                 <span>Let us help you make that dream a reality with our well-tailored curriculum and industry standard technologies to build the career of your dreams!</span>
               </p>
             </div>
           </div>

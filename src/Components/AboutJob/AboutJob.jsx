@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./AboutJob.module.css";
-import Ready from "../../Assests/About/about4.png";
+import Ready from "../../Assests/About/about44.png";
 // import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const AboutJob = () => {

@@ -18,7 +18,7 @@
     background-image: url(../../Assests/Courses/heroData.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 23rem;
+    padding-top: 28rem;
     padding-bottom: 3rem;
   }
   
@@ -161,7 +161,7 @@
     }
 
     .hero {
-      background-image: url(../../Assests/Slide\ 3.png);
+      background-image: url(../../Assests/Courses/heroData.png);
       background-repeat: no-repeat;
       background-size: cover;
       padding-top: 17rem;

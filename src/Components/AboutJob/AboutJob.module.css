@@ -17,6 +17,10 @@
   border-bottom: solid 4px rgba(1, 6, 12, 0.14);
 }
 
+.vision h3{
+  color: #ff6600;
+}
+
 .vision p{
   font-size: 16px;
   font-weight: 400;
@@ -30,6 +34,11 @@
   box-shadow: rgba(1, 6, 12, 0.14) 0px 4px 25px 0px;
   border-bottom: solid 4px rgba(1, 6, 12, 0.14);
 }
+
+.mission h3{
+  color: #ff6600;
+}
+
 .mission p{
   font-size: 16px;
   font-weight: 400;
@@ -74,6 +83,10 @@
   box-shadow: rgba(1, 6, 12, 0.14) 0px 4px 25px 0px;
 }
 
+.talent h3{
+  color: #ff6600;
+}
+
 .talent p{
   font-size: 16px;
   font-weight: 400;
@@ -88,6 +101,10 @@
   width: 90%;
   margin: auto;
   margin-bottom: 4rem;
+}
+
+.method h3{
+  color: #ff6600;
 }
 
 .method p{

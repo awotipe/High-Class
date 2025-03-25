@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./AboutHome.module.css";
-import Student from "../../Assests/About/about4.png";
+import Student from "../../Assests/About/about44.png";
 import { Link } from "react-router-dom";
 
 const AboutHome = () => {

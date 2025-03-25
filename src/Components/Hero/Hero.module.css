@@ -67,6 +67,23 @@
   }
 } */
 
+@media screen and (max-width: 898px) {
+  .hero h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 1rem;
+    width: 70%;
+  }
+  
+  .hero p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .innerContainer {
     width: 100%;
@@ -113,6 +130,13 @@
     font-weight: 500;
     width: 100%;
   }
+
+  .hero p span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    width: 70%;
+  }
 }
 
 
@@ -152,4 +176,5 @@
     font-weight: 500;
     width: 100%;
   }
+
 }

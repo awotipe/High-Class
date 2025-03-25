@@ -1,9 +1,9 @@
 .container{
     width: 100%;
-    background-image: url(../../Assests/Logos/thumb.png);
+    background-image: url(../../Assests/About/about4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 15rem;
+    padding-top: 25rem;
     padding-bottom: 3rem;
     margin-bottom: 7rem;
     margin-top: 5rem;
@@ -21,10 +21,10 @@
 @media screen and (max-width: 768px){
     .container{
         width: 100%;
-        background-image: url(../../Assests/Logos/thumb.png);
+        background-image: url(../../Assests/About/about4.png);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 10rem;
+        padding-top: 15rem;
         padding-bottom: 2rem;
         margin-bottom: 0rem;
     }
@@ -39,15 +39,15 @@
 }
 
 @media screen and (max-width: 425px){
-    .container{
+    /* .container{
         width: 100%;
-        background-image: url(../../Assests/Logos/thumb.png);
+        background-image: url(../../Assests/About/about4.png);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 8rem;
+        padding-top: 15rem;
         padding-bottom: 2rem;
         margin-bottom: 0rem;
-    }
+    } */
 
     .container h2{
         font-size: 20px;
