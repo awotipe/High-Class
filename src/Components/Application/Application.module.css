@@ -39,6 +39,10 @@
   padding: 0.7rem 0.5rem;
 }
 
+span{
+  color: red;
+}
+
 .submit button {
   width: 100%;
   border: 1px solid #0e3997;

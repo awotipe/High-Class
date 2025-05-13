@@ -95,16 +95,16 @@ const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail} className={classes.register}>
        <h3>Get In Touch With Us</h3>
        <p>We would love to hear from you</p>
-       <label for="full_Name" >Full Name</label><br/>
-       <input type="name" id="full_Name" name="full_Name" placeholder='Please enter your full name' required/><br/>
+       <label for="full_Name" >Full Name<span>*</span></label><br/>
+       <input type="name" id="full_Name" name="full_Name" placeholder='e.g. Victor Nelson' required/><br/>
 
-       <label for="Email" >Email</label><br/>
-       <input type="email" id="email" name="email" placeholder='Please enter your email address' required/><br/>
+       <label for="Email" >Email<span>*</span></label><br/>
+       <input type="email" id="email" name="email" placeholder='you@gmail.com' required/><br/>
 
-       <label for="phone_Number" >Phone Number</label><br/>
-       <input type="phone" id="phone" name="phone"  placeholder='+234 80 xxx xxx xx' required/><br/>
+       <label for="phone_Number" >Phone Number<span>*</span></label><br/>
+       <input type="phone" id="phone" name="phone"  placeholder='+23480xxxxxxxx' required/><br/>
 
-       <label for="address" >Message</label><br/>
+       <label for="address" >Message<span>*</span></label><br/>
        <textarea name="message" id="message" placeholder='Leave us a message' rows={4} required></textarea>
        
        <div className={classes.submit}>

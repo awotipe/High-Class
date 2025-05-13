@@ -42,9 +42,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦400,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
           <div className={classes.card}>
@@ -60,9 +63,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦400,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
           <div className={classes.card}>
@@ -77,9 +83,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
-                <Link to="/register">
-                  <button>Register Now</button>
-                </Link>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦400,000</button>
+              <Link to="/register">
+                <button className={classes.register}>Register Now</button>
+              </Link>
+            </div>
               </div>
             </div>
           </div>
@@ -102,9 +111,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦500,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
           <div className={classes.card}>
@@ -120,9 +132,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦400,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
           <div className={classes.card}>
@@ -143,9 +158,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦400,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
         </div>
@@ -163,9 +181,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  4months </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦400,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
           <div className={classes.card}>
@@ -185,9 +206,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  6weeks </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦100,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
           <div className={classes.card}>
@@ -203,9 +227,12 @@ const CoursePage = () => {
                 <p><FaCalendar />  6weeks </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
+              <div className={classes.calender}>
+              <button className={classes.price}>₦150,000</button>
               <Link to="/register">
-                <button>Register Now</button>
+                <button className={classes.register}>Register Now</button>
               </Link>
+            </div>
             </div>
           </div>
         </div>

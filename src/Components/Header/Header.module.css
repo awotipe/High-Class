@@ -114,9 +114,9 @@ button a {
         display: flex;
         flex-direction: column;
         width: 60%;
-        height: 100vh;
+        height: 80vh;
         position: fixed;
-        top: 82px; 
+        top: 87px; 
         right:0;
         background: #0E3997;
         transition: 0.3s;

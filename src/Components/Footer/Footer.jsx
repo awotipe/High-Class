@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Footer.module.css";
 import Logo from "../../Assests/Logos/LogoBG.png";
 import Facebook from "../../Assests/facebook.png";
@@ -9,9 +9,13 @@ import { Link, NavLink } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
 import { IoCall } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 // import { PiPaperPlaneTiltFill } from "react-icons/pi";
 
 const Footer = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className={classes.container}>
       <footer>
@@ -118,6 +122,12 @@ const Footer = () => {
           <p>Copyright ©High-Class Tech Hub 2025. All Rights Reserved</p>
         </div>
       </footer>
+      <div className={classes.scrollUp} onClick={() => {
+          window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        }}
+      >
+        <BsFillArrowUpCircleFill className={classes.iconscroll} />
+      </div>
     </div>
   );
 };

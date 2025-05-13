@@ -47,25 +47,25 @@ const Application = () => {
     <form ref={form} onSubmit={sendEmail} className={classes.register}>
        <h3>WELCOME TO HIGH-CLASS TECH HUB</h3>
        <p>Please fill the form below appropriately.</p>
-       <label for="full_Name" >Full Name</label><br/>
-       <input type="name" id="full_Name" name="full_Name" placeholder='Please enter your full name' required/><br/>
+       <label for="full_Name" >Full Name<span>*</span></label><br/>
+       <input type="name" id="full_Name" name="full_Name" placeholder='e.g. Victor Nelson' required/><br/>
 
-       <label for="Email" >Email</label><br/>
-       <input type="email" id="email" name="email" placeholder='Please enter your email address' required/><br/>
+       <label for="Email" >Email<span>*</span></label><br/>
+       <input type="email" id="email" name="email" placeholder='you@gmail.com' required/><br/>
 
-       <label for="phone_Number" >Phone Number</label><br/>
-       <input type="phone" id="phone" name="phone"  placeholder='+234 80 xxx xxx xx' required/><br/>
+       <label for="phone_Number" >Phone Number<span>*</span></label><br/>
+       <input type="phone" id="phone" name="phone"  placeholder='+23480xxxxxxxx' required/><br/>
 
-       <label for="address" >Address</label><br/>
-       <input type="address" id="address" name="address" placeholder='Please enter your house address' required/><br/>
+       <label for="address" >Address<span>*</span></label><br/>
+       <input type="address" id="address" name="address" placeholder='City, State & Country' required/><br/>
 
-       <label for="gender" >Gender</label><br/>
+       <label for="gender" >Gender<span>*</span></label><br/>
        <input type="text" id="gender" name="gender" placeholder='Male or Female' required/><br/>
 
-       <label for="course" >Course to Study</label><br/>
-       <input type="text" id="course" name="course" placeholder='Please let us know your preffered course' required/><br/>
+       <label for="course" >Course to Study<span>*</span></label><br/>
+       <input type="text" id="course" name="course" placeholder='Your preffered course' required/><br/>
 
-       <label for="attendance" >Mode of Attendance</label><br/>
+       <label for="attendance" >Mode of Training<span>*</span></label><br/>
        <input type="text" id="attendance" name="attendance" placeholder='Virtual or Onsite' required/><br/>
        
        <div className={classes.submit}>

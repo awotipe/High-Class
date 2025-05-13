@@ -116,6 +116,10 @@
     color: #333333;
   }
 
+  span{
+    color: red;
+  }
+
   .myRow{
     color:#0E3997;
     font-size: 16px;
