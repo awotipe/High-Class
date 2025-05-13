@@ -1,5 +1,4 @@
 .navMenu .active {
-    /* color: #0E3997; */
     color: rgba(255, 102, 0, 1);
 }
 
@@ -172,6 +171,10 @@ button a {
         width: 45%;
     }
     .logo img{
+        width: 100%;
+    }
+
+    .actives{
         width: 100%;
     }
 }

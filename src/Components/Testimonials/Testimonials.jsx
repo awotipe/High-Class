@@ -80,6 +80,7 @@ export default class Testimonials extends Component {
           <h4>TESTIMONIALS</h4>
           <h2>See What Our Students Are Saying</h2>
           <Slider {...settings} className={classes.slider}>
+            <div className={classes.testimony}>
             <div className={classes.testimonySlide}>
               <div className={classes.paragraph}>
                 <p>
@@ -97,15 +98,15 @@ export default class Testimonials extends Component {
                 <p>FRONTEND DEVELOPER</p>
               </div>
             </div>
+            </div>
+            <div className={classes.testimony}>
             <div className={classes.testimonySlide}>
               <div className={classes.paragraph}>
                 <p>
                   "Before joining high-class tech hub, I always felt like I was
                   solving problems in a vacuum. Here, I found a community of
                   like-minded individuals who challenge and inspire me every
-                  day. The hands-on projects and real-world case studies have
-                  sharpened my problem-solving skills in ways I never imagined.
-                  This place doesn’t just teach you how to code or build,it
+                  day. They don’t just teach you how to code or build, they
                   teaches you how to think critically and make an impact."
                 </p>
               </div>
@@ -114,6 +115,8 @@ export default class Testimonials extends Component {
                 <p>CYBERSECURITY</p>
               </div>
             </div>
+            </div>
+            <div className={classes.testimony}>
             <div className={classes.testimonySlide}>
               <div className={classes.paragraph}>
                 <p>
@@ -130,6 +133,8 @@ export default class Testimonials extends Component {
                 <p>DATA ANALYST</p>
               </div>
             </div>
+            </div>
+            <div className={classes.testimony}>
             <div className={classes.testimonySlide}>
               <div className={classes.paragraph}>
                 <p>
@@ -146,6 +151,8 @@ export default class Testimonials extends Component {
                 <p>FRONTEND ENGINEER</p>
               </div>
             </div>
+            </div>
+            <div className={classes.testimony}>
             <div className={classes.testimonySlide}>
               <div className={classes.paragraph}>
                 <p>
@@ -162,6 +169,7 @@ export default class Testimonials extends Component {
                 <h5>Toheeb Abdulrahman</h5>
                 <p>BACKEND ENGINEER</p>
               </div>
+            </div>
             </div>
           </Slider>
         </div>

@@ -134,9 +134,10 @@ const CoursePage = () => {
               />
             </div>
             <div className={classes.cardText}>
-              <h3>FULLSTACK WEB DEVELOPMENT</h3>
+              <h3>MOBILE APP DEVELOPMENT</h3>
               <p>
-              Whether it's crafting engaging visuals or optimizing server performance, this is your gateway to becoming a versatile Fullstack Web Developer ready to tackle any challenge in the tech industry.
+              Kickstart your career as a Mobile App Developer today!
+              Master the skills to build high-performance, user-friendly mobile applications that deliver seamless experiences across devices and platforms.
               </p>
               <div className={classes.calender}>
                 <p><FaCalendar />  4months </p>
@@ -181,7 +182,7 @@ const CoursePage = () => {
               Master the art of visual storytelling and creative design. Define design concepts and collaborate seamlessly with clients and marketing teams to bring ideas to life through stunning visuals.
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  4months </p>
+                <p><FaCalendar />  6weeks </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">
@@ -199,7 +200,7 @@ const CoursePage = () => {
               Mastering digital marketing involves understanding and leveraging online channels like SEO, social media, email, and content marketing to reach and engage your target audience. 
               </p>
               <div className={classes.calender}>
-                <p><FaCalendar />  4months </p>
+                <p><FaCalendar />  6weeks </p>
                 <p><TbCalendarTime /> 3 days a week </p>
               </div>
               <Link to="/register">

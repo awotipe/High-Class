@@ -32,10 +32,10 @@ const Footer = () => {
             <div className={classes.address}>
               <h3>Address</h3>
               <p>
-                <TiLocation /> Abeokuta, Ogun State, Nigeria
+                <TiLocation /> Timeline Bazaar, Beside Peakolam Suites, Funaab Road, Camp, Abeokuta, Ogun State, Nigeria.
               </p>
               <p>
-                <IoCall />  09115021078
+                <IoCall />  (+234) 9115 0210 78
               </p>
               <p><MdOutlineMail /> highclasstechhub@gmail.com</p>
             </div>

@@ -12,9 +12,18 @@
    
 }
 
+.slider{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+}
+
 
 .testimonySlide {
-    width: 100%;
+    width: 90%;
     height: 320px;
     margin: auto;
     padding: 2rem;
@@ -108,7 +117,7 @@
     }
 
     .testimonySlide {
-        width: 100%;
+        width: 90%;
         height: 400px;
         padding: 1rem;
     }
@@ -135,7 +144,7 @@
     
 
     .testimonySlide {
-        width: 100%;
+        width: 90%;
         height: 300px;
         padding: 1rem;
     }
@@ -161,7 +170,7 @@
 
 
     .testimonySlide {
-        width: 100%;
+        width: 90%;
         height: 360px;
         padding: 1rem;
     }
@@ -182,14 +191,14 @@
 
 @media screen and (max-width: 480px){
     .testimonySlide {
-        width: 100%;
+        width: 90%;
         height: 400px;
         padding: 1rem;
     }
 }
 @media screen and (max-width: 380px){
     .testimonySlide {
-        width: 100%;
+        width: 90%;
         height: 460px;
         padding: 1rem;
     }

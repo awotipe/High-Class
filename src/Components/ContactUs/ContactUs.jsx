@@ -22,10 +22,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_pim38pr",
-        "template_ycz6w8l",
+        "service_inc6555",
+        "template_lepu5an",
         form.current,
-        "1qip7RQy5uzwiSAWd"
+        "iZpWHBemGw-7m1CWd"
       )
       .then(
         (result) => {
@@ -62,10 +62,10 @@ const ContactUs = () => {
             <div className={classes.address}>
               <h3>Address:</h3>
               <p>
-                 <TiLocation /> Abeokuta, Ogun State, Nigeria
+                 <TiLocation /> Timeline Bazaar, Beside Peakolam Suites, Funaab Road, Camp, Abeokuta, Ogun State, Nigeria.
               </p>
               <p>
-                <IoCall />  09115021078
+                <IoCall />  (+234) 9115 0210 78
               </p>
               <p><MdOutlineMail /> highclasstechhub@gmail.com</p>
             </div>
@@ -111,7 +111,7 @@ const ContactUs = () => {
            <button>SUBMIT</button>
        </div>
        <div className={classes.myRow}>{result ? <Result /> : null} </div>
-    </form>
+      </form>
     </div>
  </div>
   )

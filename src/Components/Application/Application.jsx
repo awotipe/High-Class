@@ -14,10 +14,10 @@ const Application = () => {
 
     emailjs
     .sendForm(
-      "service_pim38pr",
-      "template_ycz6w8l",
+      "service_inc6555",
+      "template_lepu5an",
       form.current,
-      "1qip7RQy5uzwiSAWd"
+      "iZpWHBemGw-7m1CWd"
     )
       .then(
         (result) => {
@@ -66,7 +66,7 @@ const Application = () => {
        <input type="text" id="course" name="course" placeholder='Please let us know your preffered course' required/><br/>
 
        <label for="attendance" >Mode of Attendance</label><br/>
-       <input type="text" id="attendance" name="attendance" placeholder='Onsite or Online' required/><br/>
+       <input type="text" id="attendance" name="attendance" placeholder='Virtual or Onsite' required/><br/>
        
        <div className={classes.submit}>
            <button>SUBMIT</button>
