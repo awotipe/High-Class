@@ -1,9 +1,5 @@
 .container {
   background: #0E3997;
-  /* background-image: url(../../Assests/Logos/LogoCOOL.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: color; */
   width: 100%;
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -25,24 +21,28 @@ footer {
 .footRight {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   /* margin-top: 2rem; */
 }
 
 .footLeft {
-  width: 40%;
+  width: 30%;
 }
 
-.subscribe {
-  width: 20%;
-  margin-top: 2rem;
+.info{
+  width: 40%;
 }
+.infoo{
+  width: 50%;
+}
+
 
 .socials {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: .5rem;
+  width: 50%;
 }
 
 .info h5 {
@@ -53,6 +53,20 @@ footer {
 }
 
 .info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
+
+.infoo h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
+
+.infoo p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -73,56 +87,9 @@ footer {
   align-items: center;
 }
 
-.address h3 {
-  font-size: 20px;
-  font-weight: 700;
-  padding-top: 1rem;
-}
-
-.address p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 90%;
-  align-items: center;
-}
-
-.subscribe h5 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  padding-bottom: 1rem;
-}
-
-.Form input {
-  width: 80%;
-  height: 38px;
-  padding: 0 0.5rem;
-  border: 2px solid #fff;;
-  background: #f4f4f4;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #828282;
-  border-radius: 5px 0px 0px 5px;
-  margin-top: -.5rem;
-}
-
-.Form button {
-  width: 20%;
-  height: 33px;
-  background: rgba(255, 102, 0, 1);
-  color: #fff;
-  font-size: 20px;
-  border: none;
-  font-weight: 700;
+.media img{
+  width: 100%;
   cursor: pointer;
-  border-radius: 0px 5px 5px 0px;
-}
-
-.Form {
-  display: flex;
-  align-items: center;
 }
 
 .copyright {
@@ -175,8 +142,13 @@ a {
     margin: auto;
   }
 
+  .footLogo img {
+    width: 30%;
+  }
+
   .footRight {
-    width: 80%;
+    width: 100%;
+    margin-top: 2rem;
   }
   
   .footLeft {
@@ -201,11 +173,14 @@ a {
     margin-top: 2rem;
   }
 
+  .footLogo img {
+    width: 40%;
+  }
+
   .footLeft {
     width: 100%;
   }
-  
-  .subscribe {
+  .footRight {
     width: 100%;
   }
 
@@ -215,5 +190,10 @@ a {
 
   .info{
     margin-bottom: 1rem;
+    width: 70%;
+  }
+  .infoo{
+    /* margin-bottom: 1rem; */
+    width: 90%;
   }
 }

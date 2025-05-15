@@ -83,7 +83,7 @@ const Students = () => {
         </div>
         <div className={classes.studentButton}>
           <Link to="/register">
-            <button>Enroll Now</button>
+            <button>Get Started</button>
           </Link>
         </div>
       </div>

@@ -60,7 +60,7 @@ const Header = () => {
             to="/register"
             className={classes.navLink}
             onClick={handleNavLinkClick}>
-            Register
+            Get Started
           </Link>
         </button>
             </nav>
@@ -113,7 +113,7 @@ const Header = () => {
             to="/register"
             className={classes.navLink}
             onClick={handleNavLinkClick}>
-            Register
+            Get Started
           </Link>
         </button>
             </nav>

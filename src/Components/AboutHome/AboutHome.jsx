@@ -11,9 +11,9 @@ const AboutHome = () => {
           <img src={Student} alt="Student" />
         </div>
         <div className={classes.aboutText}>
-          <h5>About Us</h5>
+          {/* <h5>About Us</h5> */}
           <p>
-            High-Class Tech Hub is a cutting-edge platform dedicated to
+            <b>High-Class Tech Hub</b> is a cutting-edge platform dedicated to
             empowering individuals and organizations with the skills and
             knowledge needed to thrive in the rapidly evolving technological
             landscape.

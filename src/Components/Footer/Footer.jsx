@@ -28,101 +28,96 @@ const Footer = () => {
               </Link>
             </div>
             <div className={classes.high}>
-            <h3>Our Mission </h3>
+              <h3>Our Mission </h3>
               <p>
-              To establish a nurturing environment where young individuals can realize and successfully attain their career goals in the ever evolving field of technology.
+                To establish a nurturing environment where young individuals can
+                realize and successfully attain their career goals in the ever
+                evolving field of technology.
               </p>
             </div>
-            <div className={classes.address}>
-              <h3>Address</h3>
+            <div className={classes.high}>
+              <h3>Our Vision</h3>
               <p>
-                <TiLocation /> Timeline Bazaar, Beside Peakolam Suites, Funaab Road, Camp, Abeokuta, Ogun State, Nigeria.
+                To impart crucial tech skills to young
+                individuals, empowering them to enhance their expertise and
+                thrive in the evolving landscape of opportunities.
               </p>
-              <p>
-                <IoCall />  (+234) 9115 0210 78
-              </p>
-              <p><MdOutlineMail /> highclasstechhub@gmail.com</p>
-            </div>
-            <div className={classes.socials}>
-            <div className={classes.media}>
-                <a href="https://www.facebook.com/share/18Xjhj4jra/">
-                <img src={Facebook} alt="Facebook" />
-                </a>
-              </div>
-              <div className={classes.media}>
-                <a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">
-                <img src={Instagram} alt="Instagram" />
-                </a>
-              </div>
-              <div className={classes.media}>
-                <a href="https://x.com/highclastechhub">
-                <img src={Twitter} alt="Twitter" />
-                </a>
-              </div>
-              <div className={classes.media}>
-                <a href="https://www.linkedin.com/in/high-class-tech-hub/">
-                <img src={Linkedin} alt="Linkedin" />
-                </a>
-              </div>
             </div>
           </div>
           <div className={classes.footRight}>
             <div className={classes.info}>
               <h5>Quick links</h5>
-              <NavLink
-              to="/">
-              <p>Home</p>
+              <NavLink to="/">
+                <p>Home</p>
               </NavLink>
-              <NavLink
-              to="/aboutus">
-              <p>About Us</p>
+              <NavLink to="/aboutus">
+                <p>About Us</p>
               </NavLink>
-              <NavLink
-              to="/contactus">
-              <p>Contact Us</p>
+              <NavLink to="/contactus">
+                <p>Contact Us</p>
               </NavLink>
-              <NavLink
-              to="/courses">
-              <p>Courses</p>
+              <NavLink to="/courses">
+                <p>Courses</p>
               </NavLink>
-              <NavLink
-              to="/register">
-              <p>Register</p>
+              <NavLink to="/register">
+                <p>Get Started</p>
               </NavLink>
             </div>
 
             <div className={classes.info}>
-              <h5>Account</h5>
-              <p>My Account</p>
-              <p>Checkout</p>
-              <p>My Cert</p>
-              <p>My Catalog</p>
+              <h5>Courses</h5>
+              <p>Frontend Dev</p>
+              <p>Backend Dev</p>
+              <p>Data Analytics</p>
+              <p>CyberSecurity</p>
+              <p>Mobile App Dev</p>
             </div>
 
-            <div className={classes.info}>
-              <h5>Socials</h5>
-              <p> <a href="https://www.facebook.com/share/18Xjhj4jra/">Facebook</a></p>
-              <p><a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">Instagram</a></p>
-              <p> <a href="https://x.com/highclastechhub">Twitter</a></p>
-              <p> <a href="https://www.linkedin.com/in/high-class-tech-hub/">Linkedin</a></p>
+            <div className={classes.infoo}>
+              <h5>Contacts</h5>
+              <p>
+                <TiLocation /> Timeline Bazaar, Beside Peakolam Suites, Funaab
+                Road, Camp, Abeokuta, Nigeria.
+              </p>
+              <p>
+                <IoCall /> (+234) 9115 0210 78
+              </p>
+              <p>
+                <MdOutlineMail /> highclasstechhub@gmail.com
+              </p>
+              <div className={classes.socials}>
+                <div className={classes.media}>
+                  <a href="https://www.facebook.com/share/18Xjhj4jra/">
+                    <img src={Facebook} alt="Facebook" />
+                  </a>
+                </div>
+                <div className={classes.media}>
+                  <a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">
+                    <img src={Instagram} alt="Instagram" />
+                  </a>
+                </div>
+                <div className={classes.media}>
+                  <a href="https://x.com/highclastechhub">
+                    <img src={Twitter} alt="Twitter" />
+                  </a>
+                </div>
+                <div className={classes.media}>
+                  <a href="https://www.linkedin.com/in/high-class-tech-hub/">
+                    <img src={Linkedin} alt="Linkedin" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          {/* <div className={classes.subscribe}>
-            <h5>Stay Updated</h5>
-            <form className={classes.Form}>
-              <input type="email" name="email" placeholder="Enter Your Email" />
-              <button type="submit">
-                <PiPaperPlaneTiltFill />
-              </button>
-            </form>
-          </div> */}
         </div>
         <div className={classes.copyright}>
           <hr />
           <p>Copyright ©High-Class Tech Hub 2025. All Rights Reserved</p>
         </div>
       </footer>
-      <div className={classes.scrollUp} onClick={() => {
+      <div
+        className={classes.scrollUp}
+        onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
       >

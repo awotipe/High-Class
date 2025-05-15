@@ -10,7 +10,7 @@ const AboutJob = () => {
         <div className={classes.vision}>
           <h3>Vision</h3>
           <p>
-            Our vision is to impart crucial tech skills to young individuals,
+            To impart crucial tech skills to young individuals,
             empowering them to enhance their expertise and thrive in the
             evolving landscape of opportunities.
           </p>
@@ -18,7 +18,7 @@ const AboutJob = () => {
         <div className={classes.mission}>
           <h3>Mission</h3>
           <p>
-            Our mission is to establish a nurturing environment where young
+            To establish a nurturing environment where young
             adults can realize and successfully attain their career goals in the
             ever evolving field of technology.
           </p>
