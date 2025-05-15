@@ -1,10 +1,10 @@
 import React,  {useRef, useState} from 'react';
 import classes from "./ContactUs.module.css";
 import emailjs from "@emailjs/browser";
-import Facebook from "../../Assests/facebook.png";
-import Instagram from "../../Assests/instagram.png";
-import Twitter from "../../Assests/twitter.png";
-import Linkedin from "../../Assests/linkedin.png";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
 // import { Link } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
 import { IoCall } from "react-icons/io5";
@@ -67,30 +67,30 @@ const ContactUs = () => {
               <p>
                 <IoCall />  (+234) 9115 0210 78
               </p>
-              <p><MdOutlineMail /> highclasstechhub@gmail.com</p>
+              <p><MdOutlineMail /> info@highclasstechhub.com.ng</p>
             </div>
             <div className={classes.socials}>
-              <div className={classes.media}>
-              <a href="https://www.facebook.com/share/18Xjhj4jra/">
-                <img src={Facebook} alt="Facebook" />
-                </a>
+                <div className={classes.media}>
+                  <a href="https://www.facebook.com/share/18Xjhj4jra/">
+                  <FaFacebook />
+                  </a>
+                </div>
+                <div className={classes.media}>
+                  <a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">
+                  <IoLogoInstagram />
+                  </a>
+                </div>
+                <div className={classes.media}>
+                  <a href="https://x.com/highclastechhub">
+                  <FaXTwitter />
+                  </a>
+                </div>
+                <div className={classes.media}>
+                  <a href="https://www.linkedin.com/in/high-class-tech-hub/">
+                  <FaLinkedin />
+                  </a>
+                </div>
               </div>
-              <div className={classes.media}>
-              <a href="https://www.instagram.com/highclasstechhub?igsh=b3NtMGh5a3FxZmkz">
-                <img src={Instagram} alt="Instagram" />
-                </a>
-              </div>
-              <div className={classes.media}>
-              <a href="https://x.com/highclastechhub">
-                <img src={Twitter} alt="Twitter" />
-                </a>
-              </div>
-              <div className={classes.media}>
-              <a href="https://www.linkedin.com/in/high-class-tech-hub/">
-                <img src={Linkedin} alt="Linkedin" />
-                </a>
-              </div>
-            </div>
           </div>
     <form ref={form} onSubmit={sendEmail} className={classes.register}>
        <h3>Get In Touch With Us</h3>
